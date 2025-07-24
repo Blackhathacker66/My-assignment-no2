@@ -312,3 +312,83 @@ footer {
 .socal_link img {
   margin: 0 10px;
 } 
+
+
+/* mobile section style  */
+
+@media screen and (max-width: 768px) {
+  /* nav section style  */
+  .show_item {
+    display: none;
+  }
+
+  .nav_section {
+    margin: 25px 16px;
+  }
+  /* ALWAYS FRESH FLOWERS section  */
+  .fresh_flowers {
+    flex-direction: column-reverse;
+  }
+  .alwayea_section h2 {
+    font-size: 1.5rem;
+    max-width: 191px;
+    line-height: 33px;
+    padding-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+  .alwayea_section img {
+    width: 100%;
+  }
+  .alwayea_section p {
+    font-size: 0.87rem;
+    padding: 0 20px;
+  }
+
+  /* our plants section style  */
+  .plants_img_section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .plants_section h3 {
+    font-size: 1.5rem;
+  }
+  .plants_section p {
+    font-size: 0.87rem;
+  }
+  .plants_img {
+    padding: 20px;
+  }
+  .plants_img img {
+    max-width: 171px;
+  }
+  .plants_img button {
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  .plants_img h4 {
+    margin: 10px 0;
+  }
+  /* flower plants section style  */
+  .flower_plants {
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 50px;
+  }
+  .img_logo {
+    display: none;
+  }
+  .first_img {
+    max-width: 400px;
+  }
+
+  .flower_text ul li {
+    font-size: 0.87rem;
+  }
+  .flower_text ul li {
+    margin-left: 25px;
+  }
+  .flower_text h4 {
+    font-size: 1.5rem;
+    margin-left: 15px;
+  }
