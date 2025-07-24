@@ -248,3 +248,67 @@ font-size: 1.37rem;
   color: white;
   
 }
+/* joind the colorgful section style  */
+.join_section {
+  max-width: 1440px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  height: 533px;
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.form label {
+  font-size: 3.12rem;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.colorful {
+  text-align: center;
+  padding-top: 200px;
+}
+#email {
+  padding: 10px 160px;
+  border: none;
+  margin-top: 10px;
+}
+#submit {
+  padding: 10px 30px;
+  background-color: rgb(233, 90, 8);
+  border: none;
+}
+/* footer  */
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.all_section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.footer_img {
+  max-width: 359px;
+}
+.first_nav ul li {
+  list-style: none;
+}
+.first_nav ul li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  line-height: 52px;
+}
+.second_nav ul li {
+  list-style: none;
+}
+.second_nav ul li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  line-height: 52px;
+}
+.socal_link img {
+  margin: 0 10px;
+} 
