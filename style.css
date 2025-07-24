@@ -49,3 +49,25 @@ nav ul li a {
 .nav_second_color {
   color: rgb(0, 0, 0);
 }
+
+/* HERO SECTION STYLE  */
+
+
+.fresh_flowers {
+  display: flex;
+  margin-top: 176px;
+  align-items: end;
+  justify-content: space-between;
+}
+.alwayea_section h2 {
+  font-size: 4rem;
+  color: rgb(233, 90, 8);
+}
+
+.alwayea_section h2 span {
+  color: rgb(0, 0, 0);
+}
+.alwayea_section p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+}
