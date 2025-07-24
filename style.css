@@ -4,15 +4,17 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 .contanir {
-    max-width: 1140;
-    margin: 0 auto;
-    background-color: #f5f7fc;
+    max-width: 1145px;
+    margin:auto;
+    padding-top: 1px;
+    background-color: #f5f7fc79;
+    height: auto;
 }
 
 body {
@@ -29,6 +31,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    font-size: 650px;
 }
 
 /* nav style  */
@@ -37,6 +40,7 @@ body {
 .nav_section {
     display: flex;
     justify-content: space-between;
+    /* justify-content: space-around; */
     align-items: center;
 
     margin-top: 20px;
@@ -75,14 +79,19 @@ nav ul li a {
 
 
 .fresh_flowers {
-    display: flex;
-    margin-top: 176px;
+   display: flex;
+    justify-content:space-around;
+    margin-top: 170px;
     align-items: end;
-    justify-content: space-between;
+    
 }
+/* .alwayea_section{
+  padding-left: 145px;
+  
+} */
 
 .alwayea_section h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: rgb(233, 90, 8);
 }
 
@@ -312,8 +321,6 @@ footer {
 .socal_link img {
   margin: 0 10px;
 } 
-
-
 /* mobile section style  */
 
 @media screen and (max-width: 768px) {
@@ -392,3 +399,63 @@ footer {
     font-size: 1.5rem;
     margin-left: 15px;
   }
+  /* letes deals section style  */
+  .small_card img {
+    padding: 10px;
+  }
+  .right_card img {
+    padding: 10px;
+  }
+
+  .latest_text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .latest_text h2 {
+    font-size: 1.5rem;
+  }
+  .latest_text p {
+    font-size: 0.87rem;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .right_card img {
+    width: 100%;
+  }
+  .left_card img {
+    width: 100%;
+  }
+  #text {
+    font-size: 1.25rem;
+  }
+  #text_small {
+    font-size: 1rem;
+  }
+  .text_right {
+    top: 100px;
+    left: 120px;
+  }
+  /* joind the colorful section  */
+  .join_section {
+    height: 275px;
+    padding-left: 10px;
+  }
+  .form label {
+    font-size: 1.25rem;
+  }
+  .colorful {
+    padding-top: 107px;
+  }
+  #email {
+    padding: 15px 40px;
+  }
+  #submit {
+    padding: 15px 20px;
+  }
+  /* footer  */
+  .all_section {
+    flex-direction: column;
+    padding-left: 30px;
+  }
+}
